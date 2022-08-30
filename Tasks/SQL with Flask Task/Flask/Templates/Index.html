@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            SQL with Flask
+        </title>
+
+    </head>
+    <body>
+        <form method="post">
+            <label>Full Name</label>
+            <br/>
+            <input type="text" name="FN" value="{{request.form.FN}}"/>
+            <br/>
+            <label>Car Name</label>
+            <br/>
+            <input type="text" name="CN" value="{{request.form.CN}}"/>
+            <br/>
+            <label>Number of Children</label>
+            <br/>
+            <input type="text" name="NC" value="{{request.form.NC}}"">
+            <br/>
+            <input class="button" type="submit" value="Register" />
+        </form>
+
+    </body>
+</html>
